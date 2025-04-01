@@ -16,6 +16,12 @@ A simple command-line interface (CLI) to fetch and display recent public activit
 - Handles invalid usernames or empty responses gracefully
 - Built with TypeScript using only Node.js native modules
 
+## 📦 Tech Stack
+
+
+- TypeScript
+- Node.js (native `https` module)
+
 ---
 
 ## 🚀 Getting Started
@@ -39,20 +45,12 @@ npm install
 npx tsc
 ```
 
-### 4. Link the CLI locally
-
-```bash
-npm link
-```
-
-This will allow you to use `github-activity` as a system-wide command.
-
 ---
 
 ## 📘 Usage
 
 ```bash
-github-activity <github-username>
+npx github-activity <github-username>
 ```
 
 ### Example:
@@ -71,14 +69,7 @@ github-activity torvalds
 
 ---
 
-## 🛠 Tech Stack
-
-- TypeScript
-- Node.js (native `https` module)
-
----
-
-## ⚠ Notes
+## ⚠️ Notes
 
 - The CLI only shows **public activity** (GitHub does not expose private events).
 - Commits or events in private repos will **not appear**.
