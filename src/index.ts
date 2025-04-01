@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import getData from './commands/fetchActivity';
 
 const user: string = process.argv[2]
